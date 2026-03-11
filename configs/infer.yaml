@@ -1,0 +1,8 @@
+# Inference Configuration
+confidence_threshold: 0.45
+iou_threshold: 0.4
+save_results: true
+draw_fps: true
+
+# Source override
+# source: "0" # webcam index or path

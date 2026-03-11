@@ -1,0 +1,11 @@
+# Base Configuration
+project_root: "."
+data_dir: "data"
+output_dir: "outputs"
+log_level: "INFO"
+device: "cpu" # or "cuda"
+
+# TF Settings
+tf_model_url: "https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2"
+confidence_threshold: 0.5
+iou_threshold: 0.5

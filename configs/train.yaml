@@ -1,0 +1,15 @@
+# Training Configuration
+batch_size: 16
+epochs: 50
+learning_rate: 0.001
+optimizer: "adam"
+
+dataset:
+    train_dir: "data/train"
+    val_dir: "data/val"
+    format: "coco"
+
+augmentation:
+    flip: true
+    rotation: 15
+    brightness: 0.2

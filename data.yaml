@@ -1,0 +1,5 @@
+names:
+  0: paper
+path: C:\Users\Admin\Documents\GitHub\FairLens\dataset
+train: images/train
+val: images/val

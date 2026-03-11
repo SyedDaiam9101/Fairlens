@@ -1,0 +1,17 @@
+# Detectify Runtime Dependencies
+# Generated for Docker and CI
+
+tensorflow>=2.15.0
+tensorflow-hub>=0.15.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+sqlalchemy>=2.0.25
+alembic>=1.13.0
+psycopg2-binary>=2.9.9
+python-multipart>=0.0.6
+pyyaml>=6.0.1
+requests>=2.31.0
